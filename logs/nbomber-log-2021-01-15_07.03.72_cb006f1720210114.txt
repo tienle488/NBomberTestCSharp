@@ -1,0 +1,34 @@
+2021-01-14 23:03:43.850 -08:00 [INF] [ThreadId:1] 
+//        __   __         __   ___  __
+//  |\ | |__) /  \  |\/| |__) |__  |__)
+//  | \| |__) \__/  |  | |__) |___ |  \  '1.1.0' started a new session: '2021-01-15_07.03.72_cb006f17'
+//
+
+2021-01-14 23:03:43.913 -08:00 [INF] [ThreadId:1] NBomber started as single node
+2021-01-14 23:03:44.002 -08:00 [INF] [ThreadId:4] plugins: no plugins were loaded
+2021-01-14 23:03:44.003 -08:00 [INF] [ThreadId:4] reporting sinks: no reporting sinks were loaded
+2021-01-14 23:03:44.004 -08:00 [INF] [ThreadId:4] starting init...
+2021-01-14 23:03:44.012 -08:00 [INF] [ThreadId:4] target scenarios: 'hello_world'
+2021-01-14 23:03:44.038 -08:00 [INF] [ThreadId:4] init finished
+2021-01-14 23:03:44.045 -08:00 [INF] [ThreadId:5] starting warm up...
+2021-01-14 23:04:15.316 -08:00 [INF] [ThreadId:8] starting bombing...
+2021-01-14 23:05:17.320 -08:00 [INF] [ThreadId:7] stopping scenarios...
+2021-01-14 23:05:17.790 -08:00 [INF] [ThreadId:7] reports saved in folder: 'D:\Users\tile2\NBomberTest\NBomberTest2\reports\2021-01-15_07.03.72_cb006f17', 
+
+2021-01-14 23:05:17.792 -08:00 [INF] [ThreadId:7] 
+test suite: 'nbomber_default_test_suite_name'
+test name: 'nbomber_default_test_name'
+scenario: 'hello_world', duration: '00:01:00', ok count: '2950', fail count: '0', all data: '0.0' MB
++----------------------+---------------------------------------------------------------+
+| step                 | details                                                       |
++----------------------+---------------------------------------------------------------+
+| - name               | step                                                          |
++----------------------+---------------------------------------------------------------+
+| - request count      | all = 2950 | OK = 2950 | failed = 0                           |
++----------------------+---------------------------------------------------------------+
+| - latency            | RPS = 37 | min = 999 | mean = 1001 | max = 1019               |
++----------------------+---------------------------------------------------------------+
+| - latency percentile | 50% = 999 | 75% = 1000 | 95% = 1013 | 99% = 1019 | StdDev = 4 |
++----------------------+---------------------------------------------------------------+
+
+
